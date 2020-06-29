@@ -1,0 +1,32 @@
+@font-face {
+  font-family: suisse;
+  src: url(suisse-bp-Intl-regular.otf);
+}
+
+body {
+  background-color: black;
+}
+
+.white-rectangle {
+  background: white;
+  position: absolute;
+  color: white;
+  font-family: suisse;
+  font-size: 20px;
+}
+
+/* style the user highlighted selection */
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: black;
+}
+::selection {
+  color: white;
+  background: black;
+}
+
+/* hide the file input button*/
+#file-upload {
+  display: none;
+}
